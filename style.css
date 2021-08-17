@@ -1,0 +1,67 @@
+body{
+    background-color: #121010;
+    color:#FFF ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.chapitre-un{
+    font-size: 40px;
+    border: 0.5px solid white;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 1000px;
+    padding: 0 10px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+}
+.description-un{
+    font-size: 20px;
+    text-align: center justify;
+    border: 0.5px solid white;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 900px;
+}
+.chapitre-deux{
+    font-size: 40px;
+    border: 0.5px solid white;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-right: 1000px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+    width: 250px;
+}
+.description-deux{
+    font-size: 20px;
+    text-align: right justify;
+    border: 0.5px solid white;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 1000px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+}
+.citation-un{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 10px;
+    border: 1px solid white;
+}
+.chapitre-trois{
+    font-size: 40px;
+}
