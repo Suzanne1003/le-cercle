@@ -34,12 +34,13 @@ h1{
 }
 .chapitre-deux{
     font-size: 40px;
-    border: 0.5px solid white;
+    border: 2px solid white;
     margin-left: 150px;
     margin-top: 40px;
     margin-right: 1000px;
     margin-bottom: 40px;
-    padding: 0 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
     width: 250px;
 }
 .description-deux{
@@ -60,8 +61,95 @@ h1{
     margin-left: 250px;
     margin-right: 100px;
     padding: 10px;
-    border: 1px solid white;
+
 }
 .chapitre-trois{
     font-size: 40px;
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 1000px;
+    padding: 0 10px;
+    width: 200px;
+    height: 50px;
+    text-align: right;
+}
+.description-trois{
+    font-size: 20px;
+    text-align: center justify;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+.chapitre-quatre{
+    font-size: 40px;
+    text-align: center justify;
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left:600px;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    width: 275px;
+    margin-left: 100px;
+}
+.description-quatre{
+    font-size: 20px;
+    text-align: center justify;
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+}
+.citation-deux{
+    font-size: 40px;
+    text-align: center;
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-right: 5px;
+    
+}
+.description-cinq{
+    font-size: 20px;
+    text-align: center justify;
+    border: 0.5px solid white;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 00px;
+    margin-right: 4px;
+    width: 270px;
+    padding: 10px;
+   
+}
+.row{
+    display: flex;
+}
+.col{
+    flex:1;
+    padding:1em;
+}
+img{
+    max-width: 400px;
+    height: auto;
+}
+.citation-trois{
+    
 }
