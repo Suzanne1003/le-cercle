@@ -7,6 +7,7 @@ h1{
     font-size: 60px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
 }
 .chapitre-un{
     font-size: 40px;
@@ -36,7 +37,7 @@ h1{
     font-size: 40px;
     border: 2px solid white;
     margin-left: 150px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-right: 1000px;
     margin-bottom: 40px;
     padding-bottom: 5px;
@@ -48,12 +49,14 @@ h1{
     text-align: right justify;
     border: 0.5px solid white;
     margin-top: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-left: 1000px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 80px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
 }
 .citation-un{
     font-size: 40px;
@@ -153,7 +156,7 @@ img{
 .citation-trois{
     font-size: 30px;
     text-align: center;
-    width: 900px;
+    width: 400px;
     margin-top: 70px;
     margin-left: 500px;
     margin-right: 5px;
@@ -165,4 +168,56 @@ img{
     font-size: 40px;
     margin-bottom: -10px;
     padding-bottom: 0px;
+}
+.navbar{
+    background-color: black;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar a.active {
+    background-color: grey;
+    color: white;
+  }
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.cerveau{
+    width: 800px;
+    height: 350px;
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.ril{
+    display: flex;
+}
+.cil{
+    flex:1;
+    padding:1em;
+}
+.processeur{
+    max-width: 700px;
+    margin-top: -40px;
+}
+.bebe{
+    width: 800px;
+    height: 350px;
+    display: block;
 }
