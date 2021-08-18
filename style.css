@@ -82,7 +82,7 @@ h1{
     font-size: 20px;
     text-align: center justify;
     border: 1px solid white;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-right: 40px;
     margin-bottom: 40px;
     margin-left: 100px;
@@ -217,7 +217,16 @@ img.cerveau{
     margin-top: -40px;
 }
 .bebe{
-    width: 800px;
-    height: 350px;
-    display: block;
+    width:6000px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+.chap-deux{
+    display: flex;
+}
+.sous-chap{
+    flex:1;
+    padding:1em;
 }
