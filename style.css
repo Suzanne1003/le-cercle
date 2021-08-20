@@ -37,8 +37,8 @@ h1{
     font-size: 40px;
     border: 2px solid white;
     margin-left: 150px;
-    margin-top: 60px;
-    margin-right: 1000px;
+    margin-top: 0px;
+    margin-right: 10px;
     margin-bottom: 40px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -48,10 +48,10 @@ h1{
     font-size: 20px;
     text-align: right justify;
     border: 0.5px solid white;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 60px;
-    margin-left: 80px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -82,13 +82,13 @@ h1{
     font-size: 20px;
     text-align: center justify;
     border: 1px solid white;
-    margin-top: 0px;
+    margin-top: -100px;
     margin-right: 40px;
     margin-bottom: 40px;
     margin-left: 100px;
     padding-left: 10px;
     padding-right: 10px;
-    width: 300px;
+    width: 100%;
 }
 .chapitre-quatre{
     font-size: 40px;
@@ -217,16 +217,21 @@ img.cerveau{
     margin-top: -40px;
 }
 .bebe{
-    width:6000px;
-    height: auto;
-    margin-right: 0px;
-    margin-left: 500px;
-    margin-top: 0px;
+    height: 800px;
+    margin-right: 10px;
+    margin-left: 3000px;
+    margin-top: -100px;
+    margin-bottom: 0px;
 }
-.chap-deux{
-    display: flex;
-}
-.sous-chap{
-    flex:1;
-    padding:1em;
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
