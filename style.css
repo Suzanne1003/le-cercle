@@ -3,12 +3,21 @@ body{
     color:#FFF ;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
+/* Titre de la page*/
 h1{
     font-size: 60px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0px;
 }
+  /* Logo*/
+  .logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Le Cerveau ; sa description ; et son image */
 .chapitre-un{
     font-size: 40px;
     border: 0.5px solid white;
@@ -16,7 +25,10 @@ h1{
     margin-right: 50px;
     margin-bottom: 40px;
     margin-left: 1000px;
-    padding: 0 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     width: 200px;
     height: 50px;
     text-align: right;
@@ -33,15 +45,25 @@ h1{
     padding-right: 10px;
     width: 900px;
 }
+img.cerveau{
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin-left: 330px;
+    margin-right: 500px;
+}
+/*Le Processeur ; sa description ; et son image*/
 .chapitre-deux{
     font-size: 40px;
-    border: 2px solid white;
+    border: 0.5px solid white;
     margin-left: 150px;
     margin-top: 0px;
     margin-right: 10px;
     margin-bottom: 40px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     width: 250px;
 }
 .description-deux{
@@ -58,6 +80,19 @@ h1{
     padding-bottom: 10px;
     width: 300px;
 }
+/*Image processeur*/
+.ril{
+    display: flex;
+}
+.cil{
+    flex:1;
+    padding:1em;
+}
+.processeur{
+    max-width: 700px;
+    margin-top: -40px;
+}
+/* Citation E-brain le futur de l'humanité*/
 .citation-un{
     font-size: 40px;
     text-align: center;
@@ -67,6 +102,7 @@ h1{
     padding: 10px;
 
 }
+/*L'évolution; sa description ; et son image*/
 .chapitre-trois{
     font-size: 40px;
     border: 2px solid white;
@@ -92,8 +128,28 @@ h1{
     padding-top: 10px;
     padding-bottom: 10px;
     width: 170px;
-    
 }
+.try{
+    float: right;
+}
+.bebe{
+    margin-top: -120px;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    height: auto;
+}
+/* Citation notre plus belle reussite*/
+h3{
+    font-size: 60px;
+    text-align: center;
+    width: 255px;
+    margin-left: 120px;
+    margin-top: 0px;
+
+}
+/*Le resultat ; sa description ; et son image*/
 .chapitre-quatre{
     font-size: 60px;
     border: auto;
@@ -102,14 +158,6 @@ h1{
     margin-left: 800px;
     margin-bottom: 20px;
     
-}
-h3{
-    font-size: 60px;
-    text-align: center;
-    width: 255px;
-    margin-left: 120px;
-    margin-top: 0px;
-
 }
 .description-quatre{
     font-size: 20px;
@@ -123,6 +171,19 @@ h3{
     padding-right: 10px;
     width: 300px;
 }
+.flotte{
+    float: right;
+}
+.fille{
+   max-width: 750px;
+   height: auto;
+    margin-top: -150px;
+    margin-left: 60px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*Citation Acheter E-brain, acheter un futur à vos enfants*/
 .citation-deux{
     font-size: 60px;
     text-align: center;
@@ -134,6 +195,7 @@ h3{
     padding-right: 5px;
     
 }
+/*Description et son image*/
 .description-cinq{
     font-size: 30px;
     text-align: center justify;
@@ -161,6 +223,13 @@ img{
     max-width: 400px;
     height: auto;
 }
+.essai{
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+/*Phrase de fin*/
 .citation-trois{
     font-size: 50px;
     border: solid 1px white;
@@ -172,11 +241,6 @@ img{
     margin-bottom: 100px;
     padding-right: 5px;
 
-}
-.un{
-    font-size: 40px;
-    margin-bottom: -10px;
-    padding-bottom: 0px;
 }
 /*nav bar footer*/
 .navbar{
@@ -203,57 +267,3 @@ img{
     background-color: grey;
     color: white;
   }
-  /* Logo*/
-.logo{
-    width: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-img.cerveau{
-    max-width: 800px;
-    height: auto;
-    display: block;
-    margin-left: 330px;
-    margin-right: 500px;
-}
-/*Image processeur*/
-.ril{
-    display: flex;
-}
-.cil{
-    flex:1;
-    padding:1em;
-}
-.processeur{
-    max-width: 700px;
-    margin-top: -40px;
-}
-.flotte{
-    float: right;
-}
-.fille{
-   max-width: 750px;
-   height: auto;
-    margin-top: -150px;
-    margin-left: 60px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-.essai{
-    margin-top: 200px;
-    margin-left: 10px;
-    margin-right: 0px;
-}
-.try{
-    float: right;
-}
-.bebe{
-    margin-top: -120px;
-    margin-right: 200px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-    max-width: 900px;
-    height: auto;
-}
