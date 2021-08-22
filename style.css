@@ -63,6 +63,7 @@ h1{
     text-align: center;
     margin-left: 250px;
     margin-right: 100px;
+    margin-bottom: 0px;
     padding: 10px;
 
 }
@@ -71,7 +72,7 @@ h1{
     border: 2px solid white;
     margin-top: 40px;
     margin-right: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-left: 1000px;
     padding: 0 10px;
     width: 200px;
@@ -82,31 +83,33 @@ h1{
     font-size: 20px;
     text-align: center justify;
     border: 1px solid white;
-    margin-top: -100px;
-    margin-right: 40px;
-    margin-bottom: 40px;
-    margin-left: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-}
-.chapitre-quatre{
-    font-size: 40px;
-    text-align: center justify;
-    border: 2px solid white;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 0px;
     margin-bottom: 0px;
-    margin-left:600px;
-    width: 200px;
+    margin-left: 80px;
     padding-left: 10px;
-    padding-right: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    
+}
+.chapitre-quatre{
+    font-size: 60px;
+    border: auto;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 800px;
+    margin-bottom: 20px;
+    
 }
 h3{
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
-    width: 275px;
-    margin-left: 100px;
+    width: 255px;
+    margin-left: 120px;
+    margin-top: 0px;
+
 }
 .description-quatre{
     font-size: 20px;
@@ -121,25 +124,30 @@ h3{
     width: 300px;
 }
 .citation-deux{
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
-    width: 150px;
-    margin-top: 0px;
-    margin-left: 50px;
+    width: 200px;
+    height: 500px;
+    margin-top: 75px;
+    margin-left: 70px;
     margin-right: 5px;
     padding-right: 5px;
     
 }
 .description-cinq{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center justify;
     border: 0.5px solid white;
-    margin-top: 60px;
+    margin-top: 300px;
     margin-bottom: 40px;
-    margin-left: 00px;
-    margin-right: 4px;
-    width: 270px;
-    padding: 10px;
+    margin-left: 100px;
+    margin-right: 0px;
+    width: 410px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
    
 }
 .row{
@@ -154,13 +162,14 @@ img{
     height: auto;
 }
 .citation-trois{
-    font-size: 30px;
+    font-size: 50px;
+    border: solid 1px white;
     text-align: center;
-    width: 400px;
+    width: 800px;
     margin-top: 70px;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-right: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     padding-right: 5px;
 
 }
@@ -169,11 +178,13 @@ img{
     margin-bottom: -10px;
     padding-bottom: 0px;
 }
+/*nav bar footer*/
 .navbar{
     background-color: black;
-    position:static;
+    position:absolute relative;
     bottom: 0;
     width: 100%;
+    padding-left: 400px;
 }
 .navbar a{
     float: left;
@@ -192,6 +203,7 @@ img{
     background-color: grey;
     color: white;
   }
+  /* Logo*/
 .logo{
     width: 250px;
     display: block;
@@ -199,12 +211,13 @@ img{
     margin-right: auto;
 }
 img.cerveau{
-    width: 800px;
-    height: 350px;
+    max-width: 800px;
+    height: auto;
     display: block;
-    margin-left: 500px;
+    margin-left: 330px;
     margin-right: 500px;
 }
+/*Image processeur*/
 .ril{
     display: flex;
 }
@@ -216,34 +229,31 @@ img.cerveau{
     max-width: 700px;
     margin-top: -40px;
 }
-.bebe{
-    height: 800px;
-    margin-right: 10px;
-    margin-left: 3000px;
-    margin-top: -100px;
-    margin-bottom: 0px;
-}
-.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 .flotte{
     float: right;
 }
 .fille{
-    width: 500px;
-    height: 300px;
-    margin-top: -70px;
-    margin-left: 20px;
-    margin-right: 400px;
+   max-width: 750px;
+   height: auto;
+    margin-top: -150px;
+    margin-left: 60px;
+    margin-right: 100px;
     margin-bottom: 10px;
     text-align: center;
+}
+.essai{
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.try{
+    float: right;
+}
+.bebe{
+    margin-top: -120px;
+    margin-right: 200px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    max-width: 900px;
+    height: auto;
 }
