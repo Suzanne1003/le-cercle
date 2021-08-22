@@ -96,7 +96,7 @@ h1{
     border: 2px solid white;
     margin-top: 40px;
     margin-right: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     margin-left:600px;
     width: 200px;
     padding-left: 10px;
@@ -115,7 +115,7 @@ h3{
     margin-top: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
-    margin-left: 100px;
+    margin-left: 200px;
     padding-left: 10px;
     padding-right: 10px;
     width: 300px;
@@ -234,4 +234,16 @@ img.cerveau{
     content: "";
     clear: both;
     display: table;
+}
+.flotte{
+    float: right;
+}
+.fille{
+    width: 500px;
+    height: 300px;
+    margin-top: -70px;
+    margin-left: 20px;
+    margin-right: 400px;
+    margin-bottom: 10px;
+    text-align: center;
 }
